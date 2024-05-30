@@ -3,6 +3,7 @@
 
 
 import { Link } from 'react-router-dom'
+import CoursesUI from './Courses'
 
 const LinksUi = () => {
 
@@ -17,7 +18,14 @@ const LinksUi = () => {
 
         <Link to="/" ><p className='text-yellow-400 px-4 hover:text-sky-100  '>HOME</p></Link>
 
-        <Link to="/courses"><p className='text-yellow-400 px-4 hover:text-blue-100' >COURSES</p></Link>
+        <div className='relative group dropdown'>
+
+          <Link to="/courses"><p className='text-yellow-400 px-4 hover:text-blue-100' >COURSES</p></Link>
+
+
+          <CoursesUI />
+
+        </div>
 
         <Link to="/challenge"><p className='text-yellow-400 px-4 hover:text-sky-100'>CHALLENGE YOURSELF</p></Link>
 
