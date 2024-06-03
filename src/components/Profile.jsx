@@ -33,20 +33,32 @@ const Dp = () => {
       if (myopened_menu.current.contains(e.target)) {
 
 
+        //CLICKED ON MENU
 
-        d.classList.remove("collapse")
-        setProfileOpened(true)
+
+
+
       } else if (active_profile_menu.current.contains(e.target)) {
 
-        d.classList.toggle("collapse")
+
+
+        //CLICKED ON DP
 
         console.log("oh ywa dp is clicked")
 
 
+
       } else {
 
-        d.classList.add("collapse")
-        setProfileOpened(false)
+        //CLICKED ANYWHERE ELSE
+
+        if (d.classList != null) {
+
+          d.classList.add("collapse")
+          setProfileOpened(false)
+
+        }
+
       }
 
     })
@@ -62,6 +74,7 @@ const Dp = () => {
     d.classList.toggle("collapse")
 
 
+
   }
 
 
@@ -73,7 +86,7 @@ const Dp = () => {
 
       <div className='relative inline  size-24 place-self-end ' aria-expanded="true" aria-haspopup="true" >
 
-        <img src={icon} className=' bg-white rounded-full size-16 px-2 py-2   ' id="menu-button" ref={active_profile_menu} />
+        <img src={icon} className=' bg-white rounded-full size-16 px-2 py-2   ' onClick={(e) => handleStuff(e)} id="menu-button" ref={active_profile_menu} />
 
 
 
