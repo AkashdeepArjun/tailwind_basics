@@ -84,7 +84,8 @@ const Dp = () => {
 
 
 
-      <div className='relative inline  size-24 place-self-end ' aria-expanded="true" aria-haspopup="true" >
+      <div className='relative inline size-24 place-self-end max-sm:place-self-start ' aria-expanded="true" aria-haspopup="true" >
+
 
         <img src={icon} className=' bg-white rounded-full size-16 px-2 py-2   ' onClick={(e) => handleStuff(e)} id="menu-button" ref={active_profile_menu} />
 

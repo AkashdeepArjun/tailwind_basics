@@ -1,0 +1,30 @@
+
+
+
+@media-query(min-width: 640px)
+.links{
+
+position:absolute;
+left: 0;
+top:20;
+
+}
+
+.links{
+
+  position:absolute;
+  bottom:0;
+
+
+}
+
+
+.links_basic{
+  
+  display:flex;
+  flex-direction:row;
+     
+
+
+
+}

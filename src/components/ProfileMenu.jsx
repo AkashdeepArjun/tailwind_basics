@@ -8,7 +8,7 @@ const ProfileMenuUi = () => {
 
     <>
 
-      <div className=" flex flex-col  collapse divide-y absolute right-1/2 top-1/2 z-50  bg-white w-56 divide-gray-600 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" id="malist">
+      <div className=" flex flex-col  collapse divide-y absolute right-1/2 max-sm:left-1/2 top-1/2 z-50  bg-white w-56 divide-gray-600 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" id="malist">
 
 
         <div className="flex flex-row align-baseline px-10 py-5 first:float-left last:float-right" role="menuitem">
