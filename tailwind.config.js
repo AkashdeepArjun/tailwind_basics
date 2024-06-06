@@ -18,7 +18,13 @@ module.exports = {
 
 
     },
-    extend: {},
+    extend: {
+
+      translate: {
+        '4.25': '30rem',
+      }
+
+    },
   },
   plugins: [],
 }

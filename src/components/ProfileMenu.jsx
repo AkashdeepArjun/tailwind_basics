@@ -8,20 +8,26 @@ const ProfileMenuUi = () => {
 
     <>
 
-      <div className=" flex flex-col  collapse divide-y absolute right-1/2 max-sm:left-1/2 top-1/2 z-50  bg-white w-56 divide-gray-600 " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" id="malist">
 
 
-        <div className="flex flex-row align-baseline px-10 py-5 first:float-left last:float-right" role="menuitem">
+      <div class=" flex flex-col max-sm:origin-top-left origin-top-right divide-y absolute scale-0 transition-transform duration-200 right-1/2 max-sm:left-1/2 top-1/2 z-50  bg-white w-56 divide-gray-600 pb-4" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" id="malist">
+
+
+        <div class="flex flex-row  align-baseline px-10 py-5 first:float-left last:float-right" role="menuitem">
 
 
           <IoIosStar />
 
-          <p className="font-serif ">Akash_8264</p>
+          <p class="font-serif ">Akash_8264</p>
 
         </div>
 
 
-        <ul className="*:px-10 *:py-5 *:cursor-pointer" role="menuitem" >
+        <ul class="*:px-10 *:py-5 *:cursor-pointer" role="menuitem" >
+
+
+
+
 
 
 
@@ -38,7 +44,7 @@ const ProfileMenuUi = () => {
         </ul>
 
 
-        <button className="place-self-center bg-teal-900 w-16 h-8 text-white" role="menuitem">Logout</button>
+        <button class="place-self-center bg-teal-900 w-16 h-8 text-white" role="menuitem">Logout</button>
 
 
       </div>
