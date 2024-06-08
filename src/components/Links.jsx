@@ -21,11 +21,11 @@ const LinksUi = () => {
 
 
 
-        <Link to="/" ><p className='text-yellow-400 max-sm:px-2 px-4 hover:text-sky-100  '>HOME</p></Link>
+        <Link to="/potato" ><p className='text-yellow-400 max-sm:px-2 px-4 hover:text-sky-100  '><a href='/potato'>HOME</a></p></Link>
 
         <div className='relative group dropdown'>
 
-          <Link to="/courses/catalogue"><p className='text-yellow-400 max-sm:px-2 px-4 hover:text-blue-100' >COURSES</p></Link>
+          <Link to="/courses/catalogue/"><p className='text-yellow-400 max-sm:px-2 px-4 hover:text-blue-100' >COURSES</p></Link>
 
 
           <CoursesUI />
